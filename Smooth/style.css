@@ -1,0 +1,16 @@
+/******************************************************************
+Theme Name: Smooth
+Theme URI: it.ryanjb.com
+Description:  Smooth html5 & css 3with mobile support
+Author: ryanjb.com g&e, it.ryanjb.com 2011
+Author URI: http://it.ryanjb.com
+Version: 1.0
+
+License: GPL
+License URI: http://www.gnu.org/copyleft/gpl.html
+******************************************************************/
+
+@import url("library/css/main-css.css");
+@import url("library/css/768.css");
+@import url("library/css/320.css");
+@import url("library/css/480.css");
