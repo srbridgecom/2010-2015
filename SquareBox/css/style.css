@@ -1,0 +1,182 @@
+/*
+* JQ Squarebox
+*
+* Copyright 2012 Ryan J. Bridglal
+
+* Free to use under the GNU GPL v3
+* http://www.gnu.org/copyleft/gpl.html 
+*
+* Find it on GIT
+* https://github.com/ryanjbcom/WebSite_JQSquareBox_demo.ryanjb.com-jqsquarebox
+*/
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+/* Containers-*/
+.container_8
+{
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+}
+
+/* grid  --*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8 {
+        display: inline;
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7 {
+        position: relative;
+}
+
+/* =Grid-*/
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+
+/* =Grid 8 Columns-*/
+.container_8 .grid_1 {width: 100px;}
+.container_8 .grid_2 {width: 220px;}
+.container_8 .grid_3 {width: 340px;}
+.container_8 .grid_4 {width: 460px;}
+.container_8 .grid_5 {width: 580px;}
+.container_8 .grid_6 {width: 700px;}
+.container_8 .grid_7 {width: 820px;}
+.container_8 .grid_8 {width: 940px;}
+
+/* =Prefix 8 Columns-*/
+.container_8 .prefix_1 {padding-left: 120px;}
+.container_8 .prefix_2 {padding-left: 240px;}
+.container_8 .prefix_3 {padding-left: 360px;}
+.container_8 .prefix_4 {padding-left: 480px;}
+.container_8 .prefix_5 {padding-left: 600px;}
+.container_8 .prefix_6 {padding-left: 720px;}
+.container_8 .prefix_7 {padding-left: 840px;}
+
+/* =Suffix 8 Columns-*/
+.container_8 .suffix_1 {padding-right: 120px;}
+.container_8 .suffix_2 {padding-right: 240px;}
+.container_8 .suffix_3 {padding-right: 360px;}
+.container_8 .suffix_4 {padding-right: 480px;}
+.container_8 .suffix_5 {padding-right: 600px;}
+.container_8 .suffix_6 {padding-right: 720px;}
+.container_8 .suffix_7 {padding-right: 840px;}
+
+/* `Push 8 Columns*/
+.container_8 .push_1 {left: 120px;}
+.container_8 .push_2 {left: 240px;}
+.container_8 .push_3 {left: 360px;}
+.container_8 .push_4 {left: 480px;}
+.container_8 .push_5 {left: 600px;}
+.container_8 .push_6 {left: 720px;}
+.container_8 .push_7 {left: 840px;}
+
+/* `Pull 8 Columns-*/
+.container_8 .pull_1 {left: -120px;}
+.container_8 .pull_2 {left: -240px;}
+.container_8 .pull_3 {left: -360px;}
+.container_8 .pull_4 {left: -480px;}
+.container_8 .pull_5 {left: -600px;}
+.container_8 .pull_6 {left: -720px;}
+.container_8 .pull_7 {left: -840px;}
+
+
+
+/* Place grid in white box */
+
+#outermost{
+	width:1000px;
+	margin:50px auto;
+	background:#fff;
+	-webkit-box-shadow:  0px 0px 10px 0px #564A3e;
+     box-shadow:  0px 0px 10px 0px #564A3e;
+}
+
+.top{
+	padding:20px 0px;
+}
+
+
+#primary,#secondary{
+	padding-top:20px;
+}
+
+#main{
+	padding-bottom:30px;
+}
+
+
+.article-box{
+	position:relative;
+	margin-bottom:20px;
+	width:220px;
+	height:170px;
+	background:#e2e2e2;
+}
+
+.post-hover{
+	width:220px;
+	height:170px;
+	background:#3F9CC1;
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+.post-hover h2{
+	margin:10px 20px;
+	font-size:20px;
+	font-weight:600;
+}
+
+.post-hover h2 a:link, .post-hover h2 a:visited{
+	color:#fff;
+}
+
+.post-hover p{
+	margin:0px 20px;
+	color:#fff;
+}
+
+
+
+a.fancybox img{
+	display:block;
+	margin-bottom:20px;
+}
+
+
+.font-light-blue{
+  color:#00d9ff
+}
+
+.font-dark-blue{
+  color:#0101a2
+}
